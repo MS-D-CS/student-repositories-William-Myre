@@ -1,11 +1,18 @@
+@charset "utf-8";
+@font-face {
+   font-family: Quicksand;
+   src: url('Quicksand-regular.woff') format('woff'),
+        url('Quicksand-regular.tff') format('truetype'),
+}
+
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
    Tutorial Case
    
    TSS Typographic Style Sheet
-   Author: 
-   Date:   
+   Author: William Myre
+   Date:   2-16-22
    
    Filename: tss_styles.css
 
@@ -14,13 +21,33 @@
 
 
 /* HTML and Body Styles */
+html {
+   background-color: hsl(27, 72%, 72%);
+}
 
-
+body {
+   color: rgb(91, 91, 91);
+   background-color: ivory;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 
 
 /* Heading Styles */
 
+h1, h2 {
+   font-family: Quicksand, Verdana, Geneva, sans-serif;
+}
+
+article#about_tss h1 {
+   color: white;
+   background-color: rgb(222, 128, 60);
+}
+
+article#about_tss h2 {
+   color: white;
+   background-color: rgb(235, 177, 131);
+}
 
 
 
@@ -28,7 +55,9 @@
 
 /* Aside and Blockquote Styles */
 
-
+aside blockquote {
+   color: rgb(232, 165, 116);
+}
 
 
 
