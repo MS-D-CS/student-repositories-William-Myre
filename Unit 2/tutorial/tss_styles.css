@@ -35,8 +35,17 @@ body {
 
 /* Heading Styles */
 
+h1 {
+   font-size: 2.2em;
+}
+
+h2 {
+   font-size: 1.5em;
+}
+
 h1, h2 {
    font-family: Quicksand, Verdana, Geneva, sans-serif;
+   letter-spacing: 0.1em;
 }
 
 article#about_tss h1 {
@@ -55,6 +64,10 @@ article#about_tss h2 {
 
 /* Aside and Blockquote Styles */
 
+aside {
+   font-size: 0.8em;
+}
+
 aside blockquote {
    color: rgb(232, 165, 116);
 }
@@ -63,9 +76,13 @@ aside blockquote {
 
 /* Navigation Styles */	
 
+nav {
+   font-size: 0.8em;
+}
 
-
-
+nav > ul {
+   line-height: 2em;
+}
 
 /* List Styles */
 
@@ -75,7 +92,14 @@ aside blockquote {
 
 /* Footer Styles */
 
-
+body > footer address {
+   background-color: rgb(222, 128, 60);
+   color: white;
+   color: rgba(255, 255, 255, 0.7);
+   font: normal small-caps bold 0.9em/3em
+         Quicksand, Verdana, Geneva, sans-serif;
+         text-align: center;
+}
 
 
 
