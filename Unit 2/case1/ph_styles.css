@@ -1,8 +1,17 @@
 @charset "utf-8"
 @font-face {
-   font-family:Champagne face;
-   src: url(cac_champagne.ttf);
-   src: url(cac_champagne.woff);
+   font-family: Champagne;
+   src:url('cac_champagne.woff') format(),
+   url('cac_champagne.ttf') format();
+
+   font-family: Grunge;
+   src: url('1942.woff') format(),
+   src:url('1942.ttf') format();
+
+   font-family: Dobkin;
+   src: url('DobkinPlain.woff')
+   src: url('DobkinPlain.ttf')
+
 }
 
 /*
@@ -21,7 +30,10 @@
 
 /* Structural Styles */
 
+style{
 
+   background-color: hsl(91, 8%, 56%);
+}
 
 
 /* Navigation Styles */
