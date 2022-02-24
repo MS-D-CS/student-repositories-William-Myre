@@ -30,15 +30,43 @@
 
 /* Structural Styles */
 
-style{
-
-   background-color: hsl(91, 8%, 56%);
+body {
+    background-color: rgb(143, 152, 134);
+   font-family: 'Palatino Linotype','Book Antiqua', Palatino, serif;
 }
-
+header {
+   background: black;
+}
+p {
+   margin: 0px;
+   padding-top: 15px;
+   padding-left: 25px;
+   padding-right: 25px;
+   padding-bottom: 25px;
+}
+body > p {
+   font-size: 1.1em;
+   text-align: center;
+}
+address {
+   font-style: normal;
+   font-size: 0.9em;
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
 
 /* Navigation Styles */
 
-
+nav a{
+   font-family: 'Trebuchet MS', Helvetica, sans-serif;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+nav a:link nav:visited {
+   color: white;
+   text-decoration: none;
+}
 
 
 /* Section Styles */
