@@ -34,7 +34,6 @@ body > header > nav.horizontalNavigation li {
    width: 20%;
 }
 
-
 /* Horizontal Navigation Styles */
 
 nav.horizontalNavigaton li {
@@ -81,7 +80,7 @@ footer {
 
 footer::after {
    clear: both;
-   content: both;
+   content: "";
    display: table;
 }
 
@@ -90,7 +89,7 @@ footer > nav.verticalNavigation {
    width: 22%;
 }
 
-footer > section#contactInfo {
+footer > section#contactinfo {
    float: left;
    width: 34%;
 }
