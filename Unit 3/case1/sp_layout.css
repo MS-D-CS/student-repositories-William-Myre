@@ -99,13 +99,38 @@ ul#topics li img {
 
 /* HR Styles */
 
-
+hr {
+   width: 50%;
+}
 
 
 /* Customer Comment Styles */
 
+ul#comments {
+   width: 75%;
+   margin-top: 40px;
+   margin-bottom: 40px;
+   margin-left: auto;
+   margin-right: auto;
+}
 
+ul#comments li {
+   display: block;
+   width: 50%;
+   float: left;
+   margin-bottom: 30px;
+}
+
+ul#comments li img {
+   display: block;
+   width: 20%;
+   float: left;
+   margin-left: 5%;
+   margin-right: 5%;
+}
 
 /* Footer Styles */
 
-
+footer {
+   clear: both;
+}
