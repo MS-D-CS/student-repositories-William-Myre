@@ -16,7 +16,7 @@ main {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    background-color: goldenrod;
+    background-color: #2588b6;
 }
 
 header {
@@ -33,7 +33,7 @@ nav {
 nav ul {
     list-style: none;
     padding-left: 0px;
-    margin-left: 15px;
+    margin-left: 45px;
 }
 
 nav ul li {
@@ -44,6 +44,17 @@ nav ul li {
     width: 120px;
     height: 36px;
     margin-right: 12px;
-    background-color: #256670;
+    background-color: #2588b6;
     text-align: center;
+}
+  
+
+li a {
+    text-decoration: none;
+}
+.active, .active a, .inactive a:hover{
+    color:white;
+}
+.inactive, .inactive a {
+    color: black;
 }
