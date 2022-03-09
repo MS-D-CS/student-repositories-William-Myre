@@ -58,3 +58,7 @@ li a {
 .inactive, .inactive a {
     color: black;
 }
+
+li {
+    margin-left: 20px;
+}
