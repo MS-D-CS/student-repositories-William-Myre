@@ -39,11 +39,19 @@ figure figcaption {
 
 /* HTML Styles */
 
-
+html {
+   background-image: url(tb_back1.png);
+}
 
 
 /* Article Styles */
 
+article {
+   background: url(tb_back2.png) bottom right /15% no-repeat content-box,
+               url(tb_back3.png) bottom left /15% no-repeat content-box,   
+               url(tb_back4.png) 100% / cover no-repeat,
+               rgb(211, 211, 211);
+}
 
 
 
@@ -54,7 +62,10 @@ figure figcaption {
 
 /* Aside Styles */
 
-
+aside {
+   border: 4px double rgb(45, 93, 62); 
+   border-radius: 30px;
+}
 
 /* Footer Styles */
 
