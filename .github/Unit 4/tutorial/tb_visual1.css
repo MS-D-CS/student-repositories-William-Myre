@@ -16,8 +16,26 @@
 
 /* Figure Box Styles */
 
+figure {
+   border: solid;
+   border-width: 25px;
+   border-image: url(tb_border.png) 50 repeat;
+   margin: 20px auto 0px;
+   width: 80%;
+}
 
+figure img {
+   display: block;
+   width: 100%;
+}
 
+figure figcaption {
+ background-color: white;
+ font-family: "Palatino Linotype", Palatino, "Times New Roman", serif;
+ font-style: italic;
+ padding: 10px 0;
+ text-align: center;
+}
 
 /* HTML Styles */
 
