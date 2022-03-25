@@ -31,26 +31,14 @@ header {
 
 nav {
     position: absolute;
-}
-
-#unit1 {
-    margin-left: 100px;
-}
-
-#unit2 {
-    margin-left: 150px;
-}
-
-#unit4 {
-    background-color: #2588b6;
-    border: solid black;
-
+    border: solid;
+    margin-left: 48px;
+    margin-top: 32px;
 }
 
 nav ul {
     list-style: none;
     padding-left: 0px;
-   
 }
 
 nav ul li {
@@ -64,6 +52,8 @@ nav ul li {
     text-align: center;
     margin-left: 0px;
 }
+
+
   
 
 li a {
