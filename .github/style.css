@@ -29,11 +29,23 @@ header {
     height: 150px;
 }
 
-nav {
+.nav1 {
     position: absolute;
-    border: solid;
+    border-top: solid;
+    border-left: solid;
+    border-right: solid;
     margin-left: 48px;
-    margin-top: 32px;
+    margin-top: 2.5px;
+}
+
+.nav2 {
+    margin-left: 120px;
+    margin-bottom: -36px;
+    border: solid black;
+    border-left: none;
+    margin-top: -111px;
+    float: left;
+    background-color: #2588b6;
 }
 
 nav ul {
@@ -41,7 +53,7 @@ nav ul {
     padding-left: 0px;
 }
 
-nav ul li {
+.nav1 ul li {
     float: left;
     font-size: 18px;
     color: white;
